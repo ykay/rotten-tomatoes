@@ -21,13 +21,16 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - Alamofire (2.0.0)
+  - KVNProgress (2.2.1)
 
 DEPENDENCIES:
-  - AFNetworking
+  - AFNetworking (= 2.6.0)
   - Alamofire (= 2.0.0)
+  - KVNProgress
 
 SPEC CHECKSUMS:
   AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
   Alamofire: 2f13548b29d25a58ecd91c9225fb51493e2b782b
+  KVNProgress: 7001d2d16a2755cee5599e8e485befe056f2197b
 
 COCOAPODS: 0.38.2

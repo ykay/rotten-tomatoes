@@ -11,13 +11,18 @@ import Alamofire
 
 class DetailsViewController: UIViewController {
     @IBOutlet weak var detailsText: UITextView!
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var detailsImage: UIImageView!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     var movie: Movie!
     
     override func viewDidLoad() {
         navigationItem.title = movie.title
         
+        scrollView.backgroundColor = UIColor(white: 1.0, alpha: 0.7)
+        
+        titleLabel.text = movie.title
         detailsText.text = movie.synopsis
      
         detailsImage.layer.masksToBounds = true
